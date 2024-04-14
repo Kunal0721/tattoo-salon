@@ -1,0 +1,155 @@
+body{
+  font-family: "Oswald", sans-serif;
+}
+
+.bg-banner {
+  background: rgba(0, 0, 0, 0.8) url(banner.jpg) no-repeat;
+  background-position: center;
+  background-blend-mode: darken;
+  background-size: cover;
+  height: 98vh;
+}
+.bg-img-test {
+  background: rgba(0, 0, 0, 0.8) url(banner.jpg) no-repeat;
+  background-position: center;
+  background-blend-mode: darken;
+  background-size: cover;
+}
+.btn {
+  text-transform: uppercase;
+  padding: 18px;
+  background-color: rgb(203, 37, 37);
+  color: white;
+  font-weight: 700;
+}
+.machineIMG {
+  object-fit: cover;
+  object-position: center;
+  height: 650px;
+  width: 50vw;
+}
+svg {
+  color: rgb(165, 42, 42);
+}
+.card-img-top {
+  width: 300px;
+  height: 190px;
+  /* justify-content: center; */
+  object-fit: cover;
+  object-position: center;
+  /* border-radius: 50%; */
+}
+.bg-card-img {
+  background: rgba(0, 0, 0, 0.8) url(tattoo-7027595_1920.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.card:hover {
+  transform: scale(1.02);
+  border: 1px solid rgb(165, 42, 42);
+}
+
+a:hover {
+  transform: scale(1.02);
+  font-weight: 700;
+}
+.card-style {
+  border-radius: 23px;
+}
+.appointment-input {
+  background-color: black;
+  color: brown;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  /* padding: 10px; */
+  height: 50px;
+  /* width: 90vw; */
+  margin: 4px;
+}
+
+.appointment-input[type]:hover {
+  border: 1px solid rgb(165, 42, 42);
+  transform: translate(1.2vh);
+}
+.staff-image {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 23px;
+  cursor: pointer;
+}
+.staff-image:hover {
+  transform: scale(1.05);
+}
+.james {
+  color: rgb(165, 42, 42);
+}
+.berger {
+  font-size: 12vw;
+  color: rgb(165, 42, 42);
+}
+
+.since-manly {
+  font-size: 1.2vw;
+}
+
+.tatto-salon {
+  font-size: 2.8vw;
+  color: rgb(165, 42, 42);
+}
+.mnumber {
+  font-size: 1.8vw;
+}
+.testimonial {
+  display: grid;
+  place-items: center;
+  height: 98vh;
+}
+
+red {
+  color: rgb(165, 42, 42);
+}
+.bike-image {
+  height: 98vh;
+  width: 50vw;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 40px;
+}
+
+/* --custom scroll bar  */
+::-webkit-scrollbar{
+  width: 15px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: rgb(7, 7, 7);
+}
+
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(to bottom, rgb(165, 42, 42), rgb(45, 29, 29));
+  border-radius: 23px;
+}
+
+@media (max-width: 500px) {
+  .para {
+    /* color: lightblue; */
+    font-size: 2vw;
+  }
+  .mnumber {
+    font-size: 4vw;
+  }
+  .btn {
+    font-size: 2vw;
+    padding: 10px;
+  }
+  h5 {
+    font-size: 2.3vw;
+  }
+  .bike-image{
+    width: 98vw;
+  }
+}
